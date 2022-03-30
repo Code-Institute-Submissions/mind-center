@@ -4,19 +4,37 @@
     border: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 20px;
+}
+
+.header-color, nav a {
+    background-color: #9c2150;
+    color: #d3b3b3
+}
+
 nav {
     height: 50px;
-    padding: 25px 0 0 0;
+    padding-top: 25px;
 }
 
 nav li {
     list-style: none;
     display: inline;
-    margin-left: 20%;
+    /*left: 20%;*/
 }
 
 nav a {
     text-decoration: none;
+    margin: 0 30px;
+}
+
+a:hover {
+    color: #000;
 }
 
 div {
