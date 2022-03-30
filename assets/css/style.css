@@ -12,7 +12,7 @@ header h1 {
     padding-top: 20px;
 }
 
-.header-color, nav a {
+.header-color, nav a{
     background-color: #9c2150;
     color: #d3b3b3
 }
@@ -80,8 +80,27 @@ a:hover {
     transform: translateZ(-1px);
   }
 
-  /*#spring-image {
-    background-image: url(../images/spring-background-4035402_960_720.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+  .div-one {
+      margin-left: 300px;
+      margin-top: 150px;
+  }
+
+  .main-text-background {
+    background-color: #9c2150;
+  }
+
+  #sitting-woman {
+    background-image: url(../images/meditation-972472_960_720.jpg);
+  }
+
+ .div-two {
+     margin-left: 1100px;
+     margin-top: 150px;
+     width: 30%;
+  }
+
+  .div-three {
+      margin-left: 300px;
+      margin-top: 150px;
+      width: 30%;
   }
