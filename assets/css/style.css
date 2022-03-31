@@ -1,25 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+h1 {
+    font-family: 'Poiret One',Arial;
+}
+
 .text-center {
     text-align: center;
 }
 
+header {
+    height: 200px;
+}
 header h1 {
-    padding-top: 20px;
+    padding-top: 50px;
+    font-size: 60px;
 }
 
-.header-color, nav a{
+.header-color, nav a {
     background-color: #9c2150;
     color: #d3b3b3
 }
 
 nav {
     height: 50px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 nav li {
@@ -30,6 +40,7 @@ nav li {
 nav a {
     text-decoration: none;
     margin: 0 30px;
+    font-size: 25px;
 }
 
 a:hover {
@@ -124,3 +135,7 @@ a:hover {
       margin-left: 38%;
       margin-top: 45px;
   }
+
+  .section-color {
+    color: #380c1d
+}
