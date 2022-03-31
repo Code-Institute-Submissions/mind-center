@@ -6,7 +6,7 @@
     border: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .font-family {
     font-family: 'Poiret One',Arial;
 }
 
@@ -110,10 +110,54 @@ a:hover {
     transform: translateZ(-1px);
   }
 
-  .div-one {
-      margin-left: 500px;
+  #main-header {
+      text-align: center;
+      font-size: 60px;
+      margin: 25px 0;
+      text-decoration: underline;
+      color: #380c1d;
+  }
+
+  .instruction {
+      height: 450px;
+      margin: 200px 10%;
+      display: block;
+  }
+
+  .odd-instruction {
+      width: 49%;
+      height: 100px;
+      float: left;
       margin-top: 150px;
-      display: flex;
+      color: #380c1d;
+      font-size: 40px;
+  }
+
+  .even-instruction {
+    width: 49%;
+    height: 100px;
+    float: right;
+    margin-top: 150px;
+    color: #380c1d;
+    font-size: 40px;
+    font-family: 'Poiret One',Arial;
+}
+
+  .odd-image {
+      float: right;
+      height: 100%;
+      width: 49%;
+  }
+
+  .even-image {
+    float: left;
+    height: 100%;
+    width: 49%;
+}
+
+
+  .number-right-margin {
+      margin-right: 10px;
   }
 
   .div-one h2 {
