@@ -47,6 +47,24 @@ a:hover {
     color: #000;
 }
 
+#sunrise {
+    width: 100%;
+    height: 150px;
+}
+
+.container {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #380c1d;
+}
+
 /*section {
     border: 1px solid red;
     width: 100%;
