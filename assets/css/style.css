@@ -1,5 +1,7 @@
+/*Imported fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
+/*Some recurring css rules*/
 * {
     margin: 0;
     padding: 0;
@@ -14,17 +16,18 @@ h1, h2, h3, .font-family {
     text-align: center;
 }
 
+.header-color, nav a, .consistency {
+    background-color: #9c2150;
+    color: #d3b3b3
+}
+
+/*Header and navigation bar*/
 header {
     height: 200px;
 }
 header h1 {
     padding-top: 50px;
     font-size: 60px;
-}
-
-.header-color, nav a, .consistency {
-    background-color: #9c2150;
-    color: #d3b3b3
 }
 
 nav {
@@ -47,6 +50,7 @@ a:hover {
     color: #000;
 }
 
+/*Image below header*/
 #sunrise {
     width: 100%;
     height: 150px;
@@ -65,27 +69,7 @@ a:hover {
     color: #380c1d;
 }
 
-/*section {
-    border: 1px solid red;
-    width: 100%;
-    height: 2000px;
-}
-
-/*#spring-image {
-    background-image: url(../images/spring-background-4035402_960_720.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-}
-
-.section-color {
-    color: #380c1d
-}
-
-.div-position {
-    position: absolute;
-}*/
-
+/*Rules defining parallax scrolling, for layer-base and layer-back*/
 .parallax {
     background-image: url(../images/spring-background-4035402_960_720.webp);
     background-repeat: no-repeat;
@@ -109,6 +93,7 @@ a:hover {
     transform: translateZ(-1px);
   }
 
+  /*Header followed by instruction steps and images 1-5, defined by odd and even*/
   #main-header {
       text-align: center;
       font-size: 60px;
@@ -158,6 +143,7 @@ a:hover {
       margin-right: 10px;
   }
 
+  /*Consistency section at colored circle background*/
   .consistency {
       margin-left: 33%;
       margin-right: 33%;
@@ -179,6 +165,7 @@ a:hover {
       font-size: 24px;
   }
 
+  /*Video section, rules for left and right video plus descriptions*/
   .video-intro {
       left: 37%;
       margin-top: 150px;
@@ -226,6 +213,7 @@ a:hover {
     font-size: 24px;
 }
 
+/*Form section*/
 #form-container {
     background-color: #9c2150;
     background-image: url(../images/buddha-1177009_960_720.jpg);
@@ -258,6 +246,8 @@ input {
 #container-message {
     margin-top: 20px;
 }
+
+/*Footer section*/
 
 footer {
     height: 100px;
