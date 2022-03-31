@@ -183,27 +183,46 @@ a:hover {
   .video-intro {
       left: 37%;
       margin-top: 150px;
+      margin-left: 37%;
+      margin-bottom: 75px;
+      text-decoration: underline;
+      font-size: 36px;
+      color: #9c2150;
       width: 30%;
   }
 
-  video {
-      width: 500;
+  #video-container {
+      height: 600px;
   }
 
-  .video-div {
-      margin: 50 0;
+  .left-video {
+      float: left;
+      margin-left: 10%;
+      width: 650px;
+      height: 500px;
   }
 
-  .meditation-video {
-      margin-left: 33%;
-      margin-top: 20px;
+  .right-video {
+      float: right;
+      margin-right: 10%;
+      width: 650px;
+      height: 500px;
   }
 
-  .video-text {
-      margin-left: 38%;
-      margin-top: 45px;
+  #video-description {
+    color: #9c2150;
   }
 
-  .section-color {
-    color: #380c1d
+  .left-video-description {
+      float: left;
+      margin-left: 14%;
+      margin-top: 30px;
+      font-size: 24px;
+  }
+
+  .right-video-description {
+    float: right;
+    margin-right: 12%;
+    margin-top: 30px;
+    font-size: 24px;
 }
