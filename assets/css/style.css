@@ -22,7 +22,7 @@ header h1 {
     font-size: 60px;
 }
 
-.header-color, nav a {
+.header-color, nav a, .consistency {
     background-color: #9c2150;
     color: #d3b3b3
 }
@@ -155,28 +155,31 @@ a:hover {
     width: 49%;
 }
 
-
   .number-right-margin {
       margin-right: 10px;
   }
 
-  .div-one h2 {
-      margin-top: 50px;
+  .consistency {
+      margin-left: 33%;
+      margin-right: 33%;
+      width: 750px;
+      height: 750px;
+      border-radius: 50%;
+  }
+  .consistency h2 {
+      margin-top: 20%;
+      font-size: 50px;
+      text-decoration: underline;
   }
 
-  #sitting-woman {
-      margin-left: 90px;
-      width: 40%;
+  .consistency p {
+      margin-left: 30%;
+      margin-right: 30%;
+      font-size: 24px;
   }
 
- .div-two {
-     margin-left: 950px;
-     margin-top: 150px;
-     width: 30%;
-  }
-
-  .div-three {
-      margin-left: 37%;
+  .video-intro {
+      left: 37%;
       margin-top: 150px;
       width: 30%;
   }
