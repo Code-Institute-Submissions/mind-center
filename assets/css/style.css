@@ -228,34 +228,34 @@ a:hover {
 }
 
 #form-container {
-    position: relative;
-    height: 600px;
     background-color: #9c2150;
-    color: white;
-}
-
-#form-container h3 {
-    font-size: 28px;
-}
-#form-container h3, #form-container p {
-    float: left;
-    margin-left: 33%;
-    width: 40%;
-    margin-top: 20px;
+    background-image: url(../images/buddha-1177009_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(161, 15, 15);
+    height: 600px;
 }
 
 form {
-    position: relative;
-    border: 2px solid black;
+    height: 600px;
     width: 40%;
-    height: 350px;
-    top: 150px;
-    left: 33%;
-}
-
-label {
     margin-left: 10px;
 }
+
+form h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+form p {
+    width: 45%;
+}
+
 input {
-    margin: 20px 20px 20px 5px;
+    margin-top: 10px;
+}
+
+#container-message {
+    margin-top: 20px;
 }

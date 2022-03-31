@@ -93,16 +93,15 @@
         </div>
     </main>
     <div id="form-container">
-        <h3 class="text-center">Contact/Signup</h3>
-        <p>We're continuously expanding our website with more rewarding videos and meditation exercises. To be notified of our updates, sign up for our newsletter. You may also add any question you may have, and we will get back to you soon!</p>
         <form method="post" action="https://formdump.codeinstitute.net">
-            <label for="name">Name: </label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email: </label>
-            <input type="text" id="email" name="email" required>
-            <label for="message">Message: </label>
-            <input type="text" id="message" name="message">
-            <input type="submit" name="submit" value="Submit">
+            <h3>Contact/Signup</h3>
+            <p>We're continuously expanding our website with more rewarding videos and meditation exercises. To be notified of our updates, sign up for our newsletter:</p>        
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email" name="email" required>
+            <div id="container-message">
+                <textarea name="message" placeholder="Type your message"></textarea>
+            </div>
+            <input type="submit" name="submit" value="Sign up">
         </form>
     </div>
     <div>footer</div>
