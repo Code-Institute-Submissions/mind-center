@@ -94,7 +94,6 @@ a:hover {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    scrollbar-width: none;
   }
   .parallax__layer {
     position: absolute;
@@ -258,4 +257,20 @@ input {
 
 #container-message {
     margin-top: 20px;
+}
+
+footer {
+    height: 100px;
+    background-color: #d3b3b3;
+}
+
+footer ul {
+    display: inline-flex;
+    margin-left: 45%;
+    list-style-type: none;
+}
+
+footer li {
+    margin: 35px 15px 0px 15px;
+    font-size: 24px;
 }
