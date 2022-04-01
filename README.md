@@ -27,7 +27,7 @@ A simple, first meditation exercise is quickly available on the site. Hopefully 
 
 ![instruction 4-5](assets/mdimages/instruction3.jpg)
 
-![contingency](assets/mdimages/contingency.jpg)
+![consistency](assets/mdimages/consistency.jpg)
 
 ### Video section
 
@@ -37,10 +37,13 @@ Two videos are added to the page. More exercises/inspiration available could cre
 
 A form allows users to sign up on an email list. The user will then continuously receive relevant information. 
 
+![Buddha statue](assets/mdimages/buddhastatue.jpg)
+
 ### Footer
 
 The footer section contains links to Facebook, Twitter, Youtube, and Instagram. The users can connect to and learn more about the company. 
 
+![footer](assets/mdimages/footer.jpg)
 
 # Testing
 
