@@ -223,25 +223,38 @@ a:hover {
 
 form {
     height: 600px;
-    width: 40%;
-    margin-left: 10px;
+    margin-left: 37%;
 }
 
 form h3 {
     font-size: 30px;
     text-decoration: underline;
+    font-size: 50px;
+    margin-left: 250px;
 }
 
 form p {
     width: 45%;
+    font-size: 30px;
+    margin-left: 185px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 input {
     margin-top: 10px;
+    margin-left: 220px;
+    height: 35px;
+}
+
+#email-input {
+    margin-left: 100px;
 }
 
 #container-message {
     margin-top: 20px;
+    width: 20%;
+    margin-left: 220px;
 }
 
 /*Footer section*/
