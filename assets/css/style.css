@@ -65,7 +65,7 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
+    font-size: 30px;
     color: #380c1d;
 }
 
@@ -227,7 +227,6 @@ form {
 }
 
 form h3 {
-    font-size: 30px;
     text-decoration: underline;
     font-size: 50px;
     margin-left: 250px;
@@ -312,6 +311,41 @@ footer li {
     .consistency h2, .consistency p {
         font-size: 2.5rem;
         margin-top: 75px;
+    }
+
+    form {
+        height: 600px;
+        margin-left: 40%;
+    }
+    
+    form h3 {
+        font-size: 42px;
+        margin-left: 150px;
+    }
+    
+    form p {
+        width: 60%;
+        font-size: 26px;
+        margin-left: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input {
+        margin-top: 20px;
+        margin-left: 150px;
+        height: 30px;
+    }
+    
+    #email-input {
+        margin-left: 150px;
+    }
+
+    #container-message {
+        margin-top: 20px;
+        width: 140px;
+        margin-left: 150px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -336,12 +370,55 @@ footer li {
         margin-top: 35px;
     }
 
-    #form-container {
-        color: rgb(250, 44, 44);
+    form {
+        height: 600px;
+        margin-left: 15%;
+    }
+    
+    form h3 {
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    
+    form p {
+        width: 60%;
+        font-size: 26px;
+        margin-left: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input {
+        margin-top: 20px;
+        margin-left: 50px;
+        height: 20px;
+    }
+    
+    #email-input {
+        margin-left: 50px;
+    }
+
+    #container-message {
+        margin-top: 20px;
+        width: 140px;
+        margin-left: 50px;
     }
 }
 
 @media screen and (max-width: 550px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 20px;
+    }
+    
+    .centered {
+        font-size: 20px;
+    } 
+
     .odd-instruction {
         font-size: 30px;
     }
@@ -358,10 +435,57 @@ footer li {
 
     .consistency h2, .consistency p {
         font-size: 1rem;
+        margin-top: 50px;
+    }
+
+    form {
+        height: 600px;
+        margin-left: 5%;
+    }
+    
+    form h3 {
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    form p {
+        width: 45%;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input {
+        margin-top: 20px;
+        margin-left: 40px;
+        height: 12px;
+    }
+    
+    #email-input {
+        margin-left: 40px;
+    }
+
+    #container-message {
+        margin-top: 20px;
+        width: 140px;
+        margin-left: 40px;
     }
 }
 
 @media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .centered {
+        font-size: 1rem;
+    }
+    
     .consistency {
         width: 200px;
         height: 200px;
@@ -370,6 +494,8 @@ footer li {
 
     .consistency h2, .consistency p {
         font-size: .5rem;
+        margin-top: 25px;
+        text-decoration: none;
     }
 
     .odd-instruction {
@@ -379,5 +505,86 @@ footer li {
     .even-instruction {
       font-size: 24px;
   }
+
+  #form-container {
+    background-size: cover;
+    background-position: center;
+    height: 800px;
 }
 
+form {
+    height: 600px;
+    margin-left: 10%;
+}
+
+form h3 {
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+form p {
+    width: 45%;
+    font-size: 14px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 12px;
+}
+
+#email-input {
+    margin-left: 60px;
+}
+
+#container-message {
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 60px;
+}
+
+  footer {
+      position: absolute;
+      width: 400px;
+      right: 1rem;
+  }
+}
+
+@media screen and (max-width: 250px) {
+    form {
+        height: 600px;
+        margin-left: 5%;
+    }
+    
+    form h3 {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    
+    form p {
+        width: 45%;
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    input {
+        margin-top: 20px;
+        margin-left: 40px;
+        height: 12px;
+    }
+    
+    #email-input {
+        margin-left: 40px;
+    }
+
+    #container-message {
+        margin-top: 20px;
+        width: 140px;
+        margin-left: 40px;
+    }
+}
