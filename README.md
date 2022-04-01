@@ -9,14 +9,25 @@ Mind Center offers information for beginners to learn simple meditation techniqu
 The header includes a navigation bar with links to home, videos and a contact form on the page.
 [Header, navigation](header,nav.jpg)
 
+![header, nav](assets/mdimages/Header%2Cnav.jpg)
 
 ### Subheader
 
 The image and text directly below the header gives further clarity into what the website is about.
 
+![Sunrise image with website info text](assets/mdimages/subheader.jpg)
+
 ### Meditation instruction
 
 A simple, first meditation exercise is quickly available on the site. Hopefully a user will be interested in reading more and trying out meditation early. 
+
+![instruction 1](assets/mdimages/instruction1.jpg)
+
+![instruction 2-3](assets/mdimages/instruction2.jpg)
+
+![instruction 4-5](assets/mdimages/instruction3.jpg)
+
+![contingency](assets/mdimages/contingency.jpg)
 
 ### Video section
 
