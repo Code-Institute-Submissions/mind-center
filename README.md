@@ -78,7 +78,7 @@ No errors were found during validation of the CSS using jigsaw validator.
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The finished website can be found here: 
+The finished website can be found here: https://erican22.github.io/mind-center/
 
 
 # Credits
@@ -96,3 +96,7 @@ The icons are from fontawesome.com.
 The parallax scrolling effect are from css-tricks.com. Link: https://css-tricks.com/pure-css-parallax-scrolling-websites/
 
 To center text in an image, code from w3schools.com was used. Link: https://www.w3schools.com/howto/howto_css_image_text.asp
+
+### Website content
+
+The meditation information used is from https://mindfulnessportalen.se/meditera-5-enkla-steg/
